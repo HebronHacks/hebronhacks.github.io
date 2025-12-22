@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fff5f0;
+  color: #4a3728;
+  margin: 0;
+  padding: 2vh;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(0deg, #57829e 0%, #556069 100%) ;
+  color: white;
+  padding: 4vh;
+  border-radius: 2vh;
+  text-align: right;
+  box-shadow: 0 10vh 20vh rgba(238, 216, 207, 0.2);
+  height: 63vh;
+  margin-bottom: 4vh;
+}
+
+.HebronHacks {
+  font-size: 3em;
+  text-align: center;
+  margin-top: -12vh;
+  margin-bottom: -10vh;
+  font-family: "oswald", sans-serif;
+}
+
+header p {
+  margin: 0.8vh 0;
+  font-size: 1.5em;
+  opacity: 0.95;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 2vh;
+  background-color: fff5f0;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.2s ease;
+}
+
+.navbar.scrolled {
+  background-color: #B8950D;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1C161D;
+  font-weight: 500;
+  font-size: 1.05em;
+  padding: 0.8vh 1.5vh;
+  border-radius: 0.5vh;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #8B7A0D;
+}
+
+h2 {
+  color: #B8950D;
+  font-size: 2em;
+}
+
+.register-button {
+  display: inline-block;
+  background-color: #B8950D;
+  color: white;
+  padding: 1.2vh 3vh;
+  text-decoration: none;
+  border-radius: 0.8vh;
+  font-weight: 600;
+  margin-top: 1vh;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.4vh 1.2vh rgba(43, 22, 3, 0.3);
+}
+
+.register-button:hover {
+  background-color: #cfb106;
+  transform: translateY(-0.2vh);
+  box-shadow: 0 0.6vh 1.6vh rgba(53, 36, 20, 0.4)
+}
+
+.intro, .schedule, .faq, .about {
+  background-color: white;
+  padding-left: 5vh;
+  padding-top: 0.1vh;
+  padding-bottom: 1vh;
+  margin-bottom: 5vh;
+  border-radius: 2vh;
+  box-shadow: 0 0.4vh 1.2vh rgba(212, 114, 74, 0.1);
+  border-left: 0.5vh solid #B8950D;  scroll-margin-top: 10vh;
+  padding-right: 4vh;
+}
+
+.intro p, .schedule p, .faq p {
+  color: #5a4738;
+  font-size: 1.05em;
+}
+
+.faq {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  align-items: flex-start;
+}
+
+.faq h2 {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+details {
+  flex: 1;
+  min-width: 45%;
+  margin-bottom: 0;
+  padding: 1.5vh;
+  background-color: #f7f7f7;
+  border-radius: 0.8vh;
+  border: 0.1vh solid #f1e5da;
+  cursor: pointer;
+}
+
+details summary {
+  color: #83730e;
+  font-weight: 600;
+  font-size: 1.1em;
+  cursor: pointer;
+  user-select: none;
+}
+
+details summary:hover {
+  color: #463d0d;
+}
+
+details[open] {
+  background-color: #fdf3eb;
+}
+
+details p {
+  margin-top: 1.2vh;
+  color: #5a4738;
+}
+
+.about {
+  scroll-margin-top: 5vh;
+}

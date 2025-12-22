@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -7,15 +7,134 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#faq">FAQ</a>
+            <a href="#organizer">Organizer</a>
+        </nav>
+
+        <div class="HebronHacks">
+            <h1>Hebron Hacks</h1>
+        </div>
+
         <header>
-            <img src="hebronhackslogo.png" alt="Hebron Hacks Logo" class="logo">
-            <h1>Welcome to Hebron Hacks</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-        </header>
+            <p>A beginner-friendly hackathon:</p>
+            <p>Build, learn, and collaborate</p><br><br><br><br>
+            <p>February 21, 2026</p>
+            <p>10:00 am - 2:00 pm</p>
+            <p>Elkridge Branch</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYKWyybxWXGmYkvp_SejnLG1j4pT2fsm_Zh-QbUBAGjT4VTw/viewform?usp=dialog" class="register-button" target="_blank">Register Now</a>
+        </header>     
+
+
+        <div class="intro" id="about">
+            <h2>About Hebron Hacks</h2>
+            <p>Hebron Hacks is an event where students of all experience levels can work individually or in teams to code a small project to fit a theme.</p>
+            <p>This year's theme is: THEMMEEEEE ADD  A THEMMMEEEE</p>
+        </div>
+
+        <div class="schedule" id="schedule">
+            <h2>Schedule</h2>
+            <p>10:00 am - 10:20 am: Registration and Welcome</p>
+            <p>10:30 am - 1:30 pm: Build time, speakers, and workshops</p>
+            <p>1:30 pm - 2:00 pm: Prizes and Closing Remarks</p>
+        </div>
+
+        <div class="faq" id="faq">
+            <h2>FAQ</h2>
+
+            <details>
+            <summary>Who can attend?</summary>
+            <p>
+                Hebron Hacks is open to all students. Beginners, intermediate, and advanced coders are all welcome.
+                Anyone interested in coding, design, or technology is encouraged to participate.
+            </p>
+            </details>
+
+            <details>
+            <summary>Do I need prior coding experience?</summary>
+            <p>
+                No prior experience is required. This event is designed to be beginner-friendly, and mentors and resources will be available to help you get started.
+            </p>
+            </details>
+
+            <details>
+            <summary>What kind of projects can I submit?</summary>
+            <p>
+                Projects can be built using any programming language or platform. Projects do not need to be finished to be shared at the end of the event.
+            </p>
+            </details>
+
+            <details>
+            <summary>Can I work in a team or alone?</summary>
+            <p>
+                You can work individually or in a team of up to four people. Mentors can help you form teams if needed.
+            </p>
+            </details>
+
+            <details>
+            <summary>Will there be mentors or support?</summary>
+            <p>
+                Yes! Mentors, workshops, and resources will be available throughout the hackathon to help participants.
+            </p>
+            </details>
+
+            <details>
+            <summary>Is the event free?</summary>
+            <p>
+                Yes! Hebron Hacks is completely free to attend.
+            </p>
+            </details>
+
+            <details>
+            <summary>Will food be provided?</summary>
+            <p>
+                Pizza and snacks will be available for participants.
+            </p>
+            </details>
+
+            <details>
+            <summary>Do I need to register in advance?</summary>
+            <p>
+                Yes, please sign up in advance using the registration form. This helps us plan teams, mentors, and materials.
+            </p>
+            </details>
+
+            <details>
+            <summary>Can I attend virtually?</summary>
+            <p>
+                Yes, students can join virtually if they are unable to attend in person. Details for virtual participation will be shared after registration.
+            </p>
+            </details>
+
+            <details>
+            <summary>Will there be prizes?</summary>
+            <p>
+                Prizes may be awarded! Details will be announced closer to the event.
+            </p>
+            </details>
+        </div>
+
+        <div class="about" id="organizer">
+            <h2>About the Organizer</h2>
+            <p>Hi, my name is Tanvi and I'm the organizer of Hebron Hacks. I'm passionate about technology, economics,
+                art, and bringing people together. I hope you'll join us for a day of learning and fun!
+            </p>
+        </div>
+
+        <footer>
+        </footer>
+
+        <script>
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        </script>
     </body>
 </html>
