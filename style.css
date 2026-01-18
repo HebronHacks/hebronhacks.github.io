@@ -22,7 +22,7 @@ b {
   font-weight: 550;
 }
 
-.header {
+header {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.3),
@@ -70,7 +70,7 @@ header p {
   top: 0;
   z-index: 100;
   background-color: #b5d9df;
-  margin: 0vh;
+  margin: -2vh;
 }
 
 .navbar a {
@@ -296,11 +296,13 @@ details p {
   scroll-margin-top: 5vh;
 }
 
-.footer {
-  font-size: 0.8em;
-  width: 100vw;
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8em;;
+  width: 90vw;
   margin: 0;
-  
+  margin-left: -2vw;
   margin-bottom: -2vh;
   margin-top: 4vh;
   padding-left: 4vw;
