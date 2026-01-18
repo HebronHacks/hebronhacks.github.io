@@ -155,6 +155,10 @@ header p {
   font-weight: 650;
 }
 
+.schedule a {
+  font-size: 2.0em;
+}
+
 .info-content, .theme-content, .schedule-content, .tracks-content, .about-content {
   display: flex;
   flex-direction: row;
@@ -212,6 +216,7 @@ header p {
   width: auto;
   align-self: flex-end;
   border-radius: 20px;
+  padding-bottom: 1vh;
 }
 
 
